@@ -77,7 +77,7 @@ export default function Navbar() {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               href="/industries"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
@@ -88,32 +88,32 @@ export default function Navbar() {
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Services
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="/machines"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Machines
-            </Link>
+            </Link> */}
             <Link
               href="/training"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Training
             </Link>
-            <Link
+            {/* <Link
               href="/marketplace"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Marketplace
             </Link>
-            <Link 
+            <Link
               href="/resources"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Resources
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="/about"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
@@ -124,7 +124,7 @@ export default function Navbar() {
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Contact
-            </Link>
+            </Link> */}
             <AnimatedButton
               href="/contact"
               css="bg-primary hover:bg-secondary text-white font-monumentExtended tracking-wide px-5 py-2 rounded-md transition duration-300 shadow focus:outline-none focus-visible:underline"
