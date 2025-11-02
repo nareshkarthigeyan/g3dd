@@ -118,13 +118,13 @@ export default function Navbar() {
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               About
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Contact
-            </Link> */}
+            </Link>
             <AnimatedButton
               href="/contact"
               css="bg-primary hover:bg-secondary text-white font-monumentExtended tracking-wide px-5 py-2 rounded-md transition duration-300 shadow focus:outline-none focus-visible:underline"

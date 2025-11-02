@@ -609,212 +609,228 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Marketplace Preview */}
-      {/* <section className="py-20">
+      {/* Training CTA Section */}
+      <section className="relative py-28 overflow-hidden">
+        <div className="absolute inset-0 -z-20 overflow-hidden">
+          <video
+            className="w-full h-full object-cover opacity-30"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+          >
+            <source
+              src="https://videos.pexels.com/video-files/3184292/3184292-uhd_2560_1440_24fps.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/80 via-[#1a0f0f]/70 to-black/80"></div>
+
         <div className="container mx-auto px-6">
-          <div className="flex items-end justify-between mb-6">
-            <h2 className="text-3xl md:text-5xl font-['test']">
-              Marketplace Preview
-            </h2>
-            <a
-              href="/marketplace"
-              className="text-sm font-['dena'] text-gray-400 hover:text-white"
-            >
-              View all
-            </a>
-          </div>
-          <div className="overflow-x-auto">
-            <div className="flex gap-6 min-w-max py-2">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
-                <div
-                  key={i}
-                  className="shrink-0 w-64 bg-red-500/10 font-['dena'] rounded-xl border border-red-500/20 overflow-hidden backdrop-blur-xl"
-                >
-                  <div className="aspect-video">
-                    <img
-                      src={marketplaceImgs[i % marketplaceImgs.length]}
-                      alt={`Model ${i}`}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <p className="text-gray-200 font-semibold mb-1">
-                      Model_{i}.stl
-                    </p>
-                    <p className="text-gray-400 font-['scrib'] text-sm mb-3">
-                      High-precision part preview
-                    </p>
-                    <div className="flex flex-wrap font-['scrib'] gap-2 mb-3">
-                      <span className="text-[10px] bg-dark-100/60 border border-gray-800 rounded px-2 py-0.5">
-                        FDM
-                      </span>
-                      <span className="text-[10px] bg-dark-100/60 border border-gray-800 rounded px-2 py-0.5">
-                        ABS
-                      </span>
-                      <span className="text-[10px] bg-dark-100/60 border border-gray-800 rounded px-2 py-0.5">
-                        0.2mm
-                      </span>
-                    </div>
-                    <a
-                      href="/marketplace"
-                      className="text-sm text-red-300 hover:text-red-200"
-                    >
-                      View model
-                    </a>
-                  </div>
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center gap-3 mb-6 bg-blue-500/10 border border-blue-500/30 rounded-sm px-6 py-2">
+                <i className="fa-solid fa-graduation-cap text-blue-400" />
+                <span className="text-sm  text-blue-300 tracking-widest uppercase">
+                  Training & Development
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-6xl font-['test'] mb-6 leading-tight">
+                Build Your Future in
+                <br />
+                <span className="text-blue-400">Additive Manufacturing</span>
+              </h2>
+              <p className="text-gray-300 font-['scrib'] text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-8">
+                From schools to institutions and industry professionals, we
+                offer comprehensive training programs that combine hands-on
+                experience with expert mentorship to prepare you for the future
+                of manufacturing.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <div className="bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 rounded-sm p-6 backdrop-blur">
+                <div className="text-3xl mb-4 text-center">
+                  <i className="fa-solid fa-school text-blue-400" />
                 </div>
-              ))}
+                <h3 className="text-lg  mb-3 text-center">School Programs</h3>
+                <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                  STREAM-based learning modules introducing students to 3D
+                  printing and design thinking from an early age.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 rounded-sm p-6 backdrop-blur">
+                <div className="text-3xl mb-4 text-center">
+                  <i className="fa-solid fa-building-columns text-purple-400" />
+                </div>
+                <h3 className="text-lg  mb-3 text-center">
+                  Institution Programs
+                </h3>
+                <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                  Comprehensive curriculum covering design basics to advanced
+                  machine building for career-focused learning.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 rounded-sm p-6 backdrop-blur">
+                <div className="text-3xl mb-4 text-center">
+                  <i className="fa-solid fa-industry text-red-400" />
+                </div>
+                <h3 className="text-lg  mb-3 text-center">Industry Training</h3>
+                <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                  Expert-led programs for professionals covering design,
+                  operations, and real-world AM implementation.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-blue-500/10 to-blue-500/5 border border-blue-500/30 rounded-sm p-8 backdrop-blur mb-8">
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <div className="text-3xl font-bold text-blue-400 mb-2">
+                    30+
+                  </div>
+                  <p className="text-gray-300 font-['scrib'] text-sm">
+                    Years of Combined Experience
+                  </p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-blue-400 mb-2">
+                    EOS
+                  </div>
+                  <p className="text-gray-300 font-['scrib'] text-sm">
+                    Approved Training Partner
+                  </p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-blue-400 mb-2">
+                    100%
+                  </div>
+                  <p className="text-gray-300 font-['scrib'] text-sm">
+                    Hands-On Learning
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <a
+                href="/training"
+                className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white  px-10 py-5 rounded-sm transition-all duration-300 shadow-xl hover:shadow-blue-500/50"
+              >
+                <span>Explore Training Programs</span>
+                <i className="fa-solid fa-arrow-right" />
+              </a>
             </div>
           </div>
         </div>
-      </section> */}
-
-      {/* Use Cases or Projects */}
-      {/* <section className="py-20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-5xl font-['test'] mb-10">
-            Use Cases
-          </h2>
-          <div className="grid font-['dena'] grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                title: "Lightweight Fixture",
-                text: "30% weight reduction for assembly fixture with SLS nylon; improved ergonomics and cycle time.",
-              },
-              {
-                title: "Conformal Cooling Insert",
-                text: "Metal-printed insert with conformal channels reduced cooling time by 42%.",
-              },
-              {
-                title: "Medical Jig",
-                text: "Patient-specific jig enabling accurate placement and faster OR setup.",
-              },
-              {
-                title: "Drone Bracket",
-                text: "High-stiffness carbon-filled part replacing CNC aluminum, cutting cost by 35%.",
-              },
-              {
-                title: "Electronics Enclosure",
-                text: "Rapid proto to production with flame-retardant material and EMI shielding.",
-              },
-              {
-                title: "Spare Part On-Demand",
-                text: "Digitized spare part inventory with print-on-demand to eliminate downtime.",
-              },
-            ].map(({ title, text }, i) => (
-              <div
-                key={i}
-                className="bg-red-500/10 rounded-xl overflow-hidden border border-red-500/20 backdrop-blur-xl"
-              >
-                <div className="aspect-[4/3]">
-                  <img
-                    src={useCaseImgs[i % useCaseImgs.length]}
-                    alt={title}
-                    className="w-full h-full object-cover opacity-90"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-['dena'] mb-2">{title}</h3>
-                  <p className="text-gray-400 font-['scrib'] mb-3">{text}</p>
-                  <ul className="text-gray-500 font-['scrib'] text-sm space-y-1 list-none">
-                    <li className="flex items-start gap-2">
-                      <i className="fa-solid fa-circle-small" />
-                      <span>Lead time: 5–10 days</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <i className="fa-solid fa-circle-small" />
-                      <span>Material & process verified</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
+      </section>
 
       {/* Manufacturing Process */}
-      <section className="py-20 bg-gradient-to-b from-red-950/20 to-transparent">
+      <section className="py-28 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl md:text-5xl font-['test'] mb-4 text-center">
-            We Bring Your Ideas to Life
-          </h2>
-          <p className="text-gray-400 font-['scrib'] mb-12 text-center max-w-2xl mx-auto">
-            Our streamlined process ensures quality from design to delivery
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-            <div className="relative">
-              <div className="bg-gradient-to-br from-blue-500/10 to-blue-500/5 border border-blue-500/30 rounded-xl p-6 text-center backdrop-blur">
-                <div className="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-blue-500">
-                  <span className="text-2xl font-bold text-blue-400">1</span>
-                </div>
-                <h3 className="text-xl font-['dena'] mb-2">Design-DFAM</h3>
-                <p className="text-gray-400 font-['scrib'] text-sm">
-                  Optimize your design for additive manufacturing
-                </p>
-              </div>
-              <div className="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
-                <i className="fa-solid fa-chevron-right text-2xl text-blue-500/50" />
-              </div>
-            </div>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-['test'] mb-6">
+              Our Manufacturing Process
+            </h2>
+            <p className="text-gray-400 font-['scrib'] text-lg max-w-3xl mx-auto leading-relaxed">
+              A proven, streamlined workflow that ensures precision, quality,
+              and timely delivery from concept to completion
+            </p>
+          </div>
 
-            <div className="relative">
-              <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 border border-purple-500/30 rounded-xl p-6 text-center backdrop-blur">
-                <div className="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-purple-500">
-                  <span className="text-2xl font-bold text-purple-400">2</span>
-                </div>
-                <h3 className="text-xl font-['dena'] mb-2">Prototyping</h3>
-                <p className="text-gray-400 font-['scrib'] text-sm">
-                  Rapid prototyping and testing phase
-                </p>
-              </div>
-              <div className="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
-                <i className="fa-solid fa-chevron-right text-2xl text-purple-500/50" />
-              </div>
-            </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 relative">
+              {/* Connection Line */}
+              <div className="hidden md:block absolute top-[4rem] left-[10%] right-[10%] h-0.5 bg-gradient-to-r from-blue-500/50 via-purple-500/50 via-yellow-500/50 via-red-500/50 to-green-500/50"></div>
 
-            <div className="relative">
-              <div className="bg-gradient-to-br from-yellow-500/10 to-yellow-500/5 border border-yellow-500/30 rounded-xl p-6 text-center backdrop-blur">
-                <div className="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-yellow-500">
-                  <span className="text-2xl font-bold text-yellow-400">3</span>
+              {/* Step 1 */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-blue-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <i className="fa-solid fa-compass-drafting text-2xl text-white" />
+                  </div>
+                  <div className="text-center mb-2  text-blue-400 text-xs tracking-widest uppercase">
+                    Step 01
+                  </div>
+                  <h3 className="text-xl  mb-4 text-center">Design & DFAM</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                    Optimize your design for additive manufacturing with expert
+                    consultation
+                  </p>
                 </div>
-                <h3 className="text-xl font-['dena'] mb-2">
-                  Quality Assurance
-                </h3>
-                <p className="text-gray-400 font-['scrib'] text-sm">
-                  Rigorous testing and validation
-                </p>
               </div>
-              <div className="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
-                <i className="fa-solid fa-chevron-right text-2xl text-yellow-500/50" />
-              </div>
-            </div>
 
-            <div className="relative">
-              <div className="bg-gradient-to-br from-primary/10 to-primary/5 border border-primary/30 rounded-xl p-6 text-center backdrop-blur">
-                <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-primary">
-                  <span className="text-2xl font-bold text-primary">4</span>
+              {/* Step 2 */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-purple-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
+                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-purple-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <i className="fa-solid fa-flask text-2xl text-white" />
+                  </div>
+                  <div className="text-center mb-2  text-purple-400 text-xs tracking-widest uppercase">
+                    Step 02
+                  </div>
+                  <h3 className="text-xl  mb-4 text-center">Prototyping</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                    Rapid prototyping and functional testing phase for
+                    validation
+                  </p>
                 </div>
-                <h3 className="text-xl font-['dena'] mb-2">Production</h3>
-                <p className="text-gray-400 font-['scrib'] text-sm">
-                  Full-scale manufacturing
-                </p>
               </div>
-              <div className="hidden md:block absolute top-1/2 -right-3 transform -translate-y-1/2 z-10">
-                <i className="fa-solid fa-chevron-right text-2xl text-red-500/50" />
-              </div>
-            </div>
 
-            <div className="bg-gradient-to-br from-green-500/10 to-green-500/5 border border-green-500/30 rounded-xl p-6 text-center backdrop-blur">
-              <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border-2 border-green-500">
-                <span className="text-2xl font-bold text-green-400">5</span>
+              {/* Step 3 */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-yellow-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
+                  <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-yellow-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <i className="fa-solid fa-shield-halved text-2xl text-white" />
+                  </div>
+                  <div className="text-center mb-2  text-yellow-400 text-xs tracking-widest uppercase">
+                    Step 03
+                  </div>
+                  <h3 className="text-xl  mb-4 text-center">
+                    Quality Assurance
+                  </h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                    Rigorous testing and validation with ISO-grade standards
+                  </p>
+                </div>
               </div>
-              <h3 className="text-xl font-['dena'] mb-2">On-Time Delivery</h3>
-              <p className="text-gray-400 font-['scrib'] text-sm">
-                Fast and reliable shipping
-              </p>
+
+              {/* Step 4 */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-red-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-red-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <i className="fa-solid fa-industry text-2xl text-white" />
+                  </div>
+                  <div className="text-center mb-2  text-red-400 text-xs tracking-widest uppercase">
+                    Step 04
+                  </div>
+                  <h3 className="text-xl  mb-4 text-center">Production</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                    Full-scale manufacturing with consistent quality across
+                    batches
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 5 */}
+              <div className="relative">
+                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-green-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
+                  <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-green-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
+                    <i className="fa-solid fa-truck-fast text-2xl text-white" />
+                  </div>
+                  <div className="text-center mb-2  text-green-400 text-xs tracking-widest uppercase">
+                    Step 05
+                  </div>
+                  <h3 className="text-xl  mb-4 text-center">Delivery</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
+                    On-time delivery with complete documentation and support
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
