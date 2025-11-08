@@ -126,7 +126,7 @@ export default function MachinesPage() {
               },
               {
                 brand: "SLM Solutions",
-                blurb: "Multi‑laser platforms delivering high throughput and exceptional metallurgical quality.",
+                blurb: "Multi‑laser platforms delivering high throughput and exceptional metallurgical properties.",
                 specs: ["Build Vol: up to 500×280×365 mm", "Up to 4 lasers", "Closed‑loop powder handling"],
                 brochure: "#",
                 Image: "https://ik.imagekit.io/0s6dxbeae/SLM280.jpg?updatedAt=1756028789033",

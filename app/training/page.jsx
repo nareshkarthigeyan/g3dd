@@ -102,7 +102,7 @@ export default function TrainingPage() {
         "Hands-on Build Preparation",
         "Advanced Parameter Editing",
         "Post-Processing & Surface Finishing",
-        "Ensuring Print Quality",
+  "Ensuring Print Consistency",
         "Application Sprint (Capstone Project)",
         "Industrial Visit",
       ],

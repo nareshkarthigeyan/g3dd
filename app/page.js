@@ -104,7 +104,7 @@ export default function Home() {
                 <span className="text-xs text-red-100/80">
                   Lead time: 3–7 days
                 </span>
-                <span className="text-xs text-red-100/80">ISO-grade QA</span>
+                <span className="text-xs text-red-100/80">ISO-grade compliance</span>
               </div>
               <div className="font-['dena'] flex gap-4">
                 <a
@@ -151,7 +151,7 @@ export default function Home() {
                 manufacturing services. As pioneers in the field, we bridge the
                 gap to the future with cutting-edge technology and expert
                 support. We offer customized, efficient, and high-precision
-                solutions across industries, delivering unmatched quality and
+                solutions across industries, delivering unmatched performance and
                 innovation with every project.
               </p>
               <div className="space-y-4 mb-8">
@@ -186,8 +186,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-2xl font-['dena'] mb-2">Precision</h3>
                   <p className="text-gray-300 font-['scrib']">
-                    Delivering high-accuracy parts with stringent quality
-                    control at every step.
+                    Delivering high-accuracy parts with rigorous testing and traceability at every step.
                   </p>
                 </div>
                 <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border border-blue-500/30 rounded-xl p-6 backdrop-blur">
@@ -362,7 +361,7 @@ export default function Home() {
             </h2>
             <p className="text-gray-300 font-['scrib'] text-lg max-w-3xl mx-auto">
               Leveraging our cutting-edge additive manufacturing facilities, we
-              deliver customized, high-quality parts with unmatched speed and
+              deliver customized, high-performance parts with unmatched speed and
               precision.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mt-6">
@@ -375,7 +374,7 @@ export default function Home() {
               <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-2">
                 <i className="fa-solid fa-shield-halved text-blue-400 mr-2" />
                 <span className="text-sm font-['dena']">
-                  Stringent Quality Control
+                  Material Traceability
                 </span>
               </div>
               <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-2">
@@ -438,7 +437,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <i className="fa-solid fa-circle-check text-primary mt-1 flex-shrink-0" />
-                  <span>Consistent quality across batches</span>
+                  <span>Consistent results across batches</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <i className="fa-solid fa-circle-check text-primary mt-1 flex-shrink-0" />
@@ -730,108 +729,104 @@ export default function Home() {
       </section>
 
       {/* Manufacturing Process */}
-      <section className="py-28 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent">
+      <section className="py-28">
         <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-['test'] mb-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-6xl font-['test'] mb-4">
               Our Manufacturing Process
             </h2>
             <p className="text-gray-400 font-['scrib'] text-lg max-w-3xl mx-auto leading-relaxed">
-              A proven, streamlined workflow that ensures precision, quality,
-              and timely delivery from concept to completion
+              A streamlined, repeatable workflow that delivers precision, traceability, and on-time results.
             </p>
           </div>
 
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 relative">
-              {/* Connection Line */}
-              <div className="hidden md:block absolute top-[4rem] left-[10%] right-[10%] h-0.5 bg-gradient-to-r from-blue-500/50 via-purple-500/50 via-yellow-500/50 via-red-500/50 to-green-500/50"></div>
-
-              {/* Step 1 */}
-              <div className="relative">
-                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-blue-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
-                    <i className="fa-solid fa-compass-drafting text-2xl text-white" />
-                  </div>
-                  <div className="text-center mb-2  text-blue-400 text-xs tracking-widest uppercase">
-                    Step 01
-                  </div>
-                  <h3 className="text-xl  mb-4 text-center">Design & DFAM</h3>
-                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
-                    Optimize your design for additive manufacturing with expert
-                    consultation
-                  </p>
-                </div>
-              </div>
-
-              {/* Step 2 */}
-              <div className="relative">
-                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-purple-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-purple-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
-                    <i className="fa-solid fa-flask text-2xl text-white" />
-                  </div>
-                  <div className="text-center mb-2  text-purple-400 text-xs tracking-widest uppercase">
-                    Step 02
-                  </div>
-                  <h3 className="text-xl  mb-4 text-center">Prototyping</h3>
-                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
-                    Rapid prototyping and functional testing phase for
-                    validation
-                  </p>
-                </div>
-              </div>
-
-              {/* Step 3 */}
-              <div className="relative">
-                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-yellow-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
-                  <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-yellow-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
-                    <i className="fa-solid fa-shield-halved text-2xl text-white" />
-                  </div>
-                  <div className="text-center mb-2  text-yellow-400 text-xs tracking-widest uppercase">
-                    Step 03
-                  </div>
-                  <h3 className="text-xl  mb-4 text-center">
-                    Quality Assurance
-                  </h3>
-                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
-                    Rigorous testing and validation with ISO-grade standards
-                  </p>
-                </div>
-              </div>
-
-              {/* Step 4 */}
-              <div className="relative">
-                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-red-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
-                  <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-red-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
-                    <i className="fa-solid fa-industry text-2xl text-white" />
-                  </div>
-                  <div className="text-center mb-2  text-red-400 text-xs tracking-widest uppercase">
-                    Step 04
-                  </div>
-                  <h3 className="text-xl  mb-4 text-center">Production</h3>
-                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
-                    Full-scale manufacturing with consistent quality across
-                    batches
-                  </p>
-                </div>
-              </div>
-
-              {/* Step 5 */}
-              <div className="relative">
-                <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/10 hover:border-green-500/30 rounded-sm p-8 backdrop-blur transition-all duration-300 group">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-sm flex items-center justify-center mx-auto mb-6 shadow-lg shadow-green-500/30 group-hover:scale-110 transition-transform duration-300 relative z-10">
-                    <i className="fa-solid fa-truck-fast text-2xl text-white" />
-                  </div>
-                  <div className="text-center mb-2  text-green-400 text-xs tracking-widest uppercase">
-                    Step 05
-                  </div>
-                  <h3 className="text-xl  mb-4 text-center">Delivery</h3>
-                  <p className="text-gray-400 font-['scrib'] text-sm text-center leading-relaxed">
-                    On-time delivery with complete documentation and support
-                  </p>
-                </div>
-              </div>
+          <div className="max-w-6xl mx-auto relative">
+            {/* center connector */}
+            <div className="hidden md:flex absolute inset-x-0 top-44 justify-center z-0 pointer-events-none">
+              <div className="w-full max-w-4xl h-1 rounded-full bg-gradient-to-r from-blue-500/30 via-purple-500/20 to-green-500/30" />
             </div>
+
+            <ol className="grid grid-cols-1 md:grid-cols-5 gap-8 relative z-10">
+              {/* card 1 */}
+              <li className="relative flex flex-col items-center text-center">
+                <div className="-mt-10 mb-4 w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg ring-1 ring-white/10">
+                  <span className="text-sm font-bold text-white">01</span>
+                </div>
+                <div className="bg-white/5 border border-white/8 rounded-lg p-6 backdrop-blur hover:shadow-xl transition-shadow duration-300 w-full">
+                  <div className="flex items-center justify-center mb-3">
+                    <div className="w-12 h-12 rounded-md bg-blue-600/20 flex items-center justify-center">
+                      <i className="fa-solid fa-compass-drafting text-white/90 text-lg" />
+                    </div>
+                  </div>
+                  <h3 className="text-lg font-['dena'] mb-2">Design & DFAM</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm">Optimize parts for additive manufacturing with engineering-led design reviews and data prep.</p>
+                </div>
+              </li>
+
+              {/* card 2 */}
+              <li className="relative flex flex-col items-center text-center">
+                <div className="-mt-10 mb-4 w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-purple-500 to-purple-600 shadow-lg ring-1 ring-white/10">
+                  <span className="text-sm font-bold text-white">02</span>
+                </div>
+                <div className="bg-white/5 border border-white/8 rounded-lg p-6 backdrop-blur hover:shadow-xl transition-shadow duration-300 w-full">
+                  <div className="flex items-center justify-center mb-3">
+                    <div className="w-12 h-12 rounded-md bg-purple-600/20 flex items-center justify-center">
+                      <i className="fa-solid fa-flask text-white/90 text-lg" />
+                    </div>
+                  </div>
+                  <h3 className="text-lg font-['dena'] mb-2">Prototyping</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm">Rapid validation with functional prototypes and iterative testing cycles.</p>
+                </div>
+              </li>
+
+              {/* card 3 */}
+              <li className="relative flex flex-col items-center text-center">
+                <div className="-mt-10 mb-4 w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-yellow-500 to-yellow-600 shadow-lg ring-1 ring-white/10">
+                  <span className="text-sm font-bold text-white">03</span>
+                </div>
+                <div className="bg-white/5 border border-white/8 rounded-lg p-6 backdrop-blur hover:shadow-xl transition-shadow duration-300 w-full">
+                  <div className="flex items-center justify-center mb-3">
+                    <div className="w-12 h-12 rounded-md bg-yellow-600/20 flex items-center justify-center">
+                      <i className="fa-solid fa-shield-halved text-white/90 text-lg" />
+                    </div>
+                  </div>
+                  <h3 className="text-lg font-['dena'] mb-2">Process Assurance</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm">ISO-minded inspections, material traceability, and test reports for production readiness.</p>
+                </div>
+              </li>
+
+              {/* card 4 */}
+              <li className="relative flex flex-col items-center text-center">
+                <div className="-mt-10 mb-4 w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-red-500 to-red-600 shadow-lg ring-1 ring-white/10">
+                  <span className="text-sm font-bold text-white">04</span>
+                </div>
+                <div className="bg-white/5 border border-white/8 rounded-lg p-6 backdrop-blur hover:shadow-xl transition-shadow duration-300 w-full">
+                  <div className="flex items-center justify-center mb-3">
+                    <div className="w-12 h-12 rounded-md bg-red-600/20 flex items-center justify-center">
+                      <i className="fa-solid fa-industry text-white/90 text-lg" />
+                    </div>
+                  </div>
+                  <h3 className="text-lg font-['dena'] mb-2">Production</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm">Repeatable, documented production with post-processing and inspections at each stage.</p>
+                </div>
+              </li>
+
+              {/* card 5 */}
+              <li className="relative flex flex-col items-center text-center">
+                <div className="-mt-10 mb-4 w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-green-500 to-green-600 shadow-lg ring-1 ring-white/10">
+                  <span className="text-sm font-bold text-white">05</span>
+                </div>
+                <div className="bg-white/5 border border-white/8 rounded-lg p-6 backdrop-blur hover:shadow-xl transition-shadow duration-300 w-full">
+                  <div className="flex items-center justify-center mb-3">
+                    <div className="w-12 h-12 rounded-md bg-green-600/20 flex items-center justify-center">
+                      <i className="fa-solid fa-truck-fast text-white/90 text-lg" />
+                    </div>
+                  </div>
+                  <h3 className="text-lg font-['dena'] mb-2">Delivery</h3>
+                  <p className="text-gray-400 font-['scrib'] text-sm">Secure packing, timely logistics and full documentation to close the loop.</p>
+                </div>
+              </li>
+            </ol>
           </div>
         </div>
       </section>
@@ -848,7 +843,7 @@ export default function Home() {
                 Made in India, global clients
               </h3>
               <p className="text-gray-400 font-['scrib'] mb-3">
-                Trusted by teams across industries for quality, reliability, and
+                Trusted by teams across industries for performance, reliability, and
                 speed.
               </p>
               <ul className="text-gray-400 font-['scrib'] text-sm space-y-1 list-none">
@@ -886,7 +881,7 @@ export default function Home() {
                 End-to-End Services
               </h3>
               <p className="text-gray-400 font-['scrib'] mb-3">
-                Design, manufacturing, post-processing, and QA—handled
+                Design, manufacturing, post-processing, and inspection—handled
                 seamlessly.
               </p>
               <ul className="text-gray-400 font-['scrib'] text-sm space-y-1 list-none">
@@ -912,7 +907,7 @@ export default function Home() {
           </h2>
           <p className="text-gray-400 font-['scrib'] mb-12 text-center max-w-3xl mx-auto">
             Our advanced manufacturing facilities are equipped with cutting-edge
-            technology and expert staff, ensuring superior quality and
+            technology and expert staff, ensuring superior performance and
             efficiency at every step of the process.
           </p>
 
@@ -1052,7 +1047,7 @@ export default function Home() {
             </div>
             <div className="bg-white/5 border border-white/10 rounded-lg p-4 text-center">
               <i className="fa-solid fa-shield-halved text-2xl text-primary mb-2" />
-              <p className="text-sm font-['dena']">Quality Control</p>
+              <p className="text-sm font-['dena']">Inspection</p>
             </div>
           </div>
 

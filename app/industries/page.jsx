@@ -11,7 +11,7 @@ export default function IndustriesPage() {
       offers: [
         { name: 'Metal AM (SS/Al/Ti)', desc: 'Topology optimized brackets, heat exchangers, housings.' },
         { name: 'SLS Nylon', desc: 'Flight fixtures, ducts, and lightweight structural parts.' },
-        { name: 'QA & Reports', desc: 'Dimensional reports, surface finish, material certs.' }
+  { name: 'Inspection & Reports', desc: 'Dimensional reports, surface finish, material certs.' }
       ],
       samples: [
         'https://ik.imagekit.io/0s6dxbeae/GE-fuel-nozzle100k.v1-1-1.jpg?updatedAt=1755891626922',
@@ -223,7 +223,7 @@ export default function IndustriesPage() {
         </div>
         <div className="container mx-auto px-6">
           <h1 className="text-5xl md:text-7xl font-['dena'] mb-4">Industries We Serve</h1>
-          <p className="text-lg md:text-xl text-red-50/90 max-w-3xl">From aerospace to medical, we bring production-ready additive manufacturing with the right process, material, and quality controls for each sector.</p>
+          <p className="text-lg md:text-xl text-red-50/90 max-w-3xl">From aerospace to medical, we bring production-ready additive manufacturing with the right processes, materials, and standards for each sector.</p>
         </div>
       </section>
 

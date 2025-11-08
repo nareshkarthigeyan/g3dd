@@ -928,7 +928,7 @@ export default function Contact() {
                 determine the most efficient production method based on your
                 quantity requirements. For high-volume production, we can
                 develop a customized manufacturing plan that optimizes cost,
-                quality, and delivery time. We also offer inventory management
+                reliability, and delivery time. We also offer inventory management
                 and just-in-time production services for ongoing projects.
               </div>
             </div>

@@ -25,8 +25,8 @@ export default function ServicesPage() {
       intro: 'Production-grade parts with documentation, consistency, and repeatability at scale.',
       desc: 'From pilot runs to steady production: qualified parameters, traceability, and dimensional reports so every shipment meets spec—program after program.',
       features: [
-        'Process documentation and material traceability',
-        'Dimensional reports and QA sign-offs',
+  'Process documentation and material traceability',
+  'Dimensional reports and sign-offs',
         'Stable, repeatable production at scale',
       ],
       primaryHref: '/submit',
@@ -64,7 +64,7 @@ export default function ServicesPage() {
     {
       key: 'part-production',
       title: 'Part Production',
-      intro: 'Reliable batch and continuous production using SLS, FDM, and metal AM with QA.',
+      intro: 'Reliable batch and continuous production using SLS, FDM, and metal AM with inspections.',
       desc: 'Qualified parameters, controlled post-processing, and inspection so every part meets performance and regulatory requirements.',
       features: [
         'SLS, FDM, and metal AM capabilities',
@@ -82,7 +82,7 @@ export default function ServicesPage() {
       desc: 'A curated catalog of printable components. Go from digital inventory to on‑demand production with a click.',
       features: [
         'Curated, production-ready designs',
-        'Sell or source high-quality parts',
+  'Sell or source high-performance parts',
         'Seamless quote-to-production flow',
       ],
       primaryHref: '/marketplace',
@@ -157,7 +157,7 @@ export default function ServicesPage() {
             <h2 className="text-4xl md:text-6xl font-['test'] mb-4">Ready to Manufacture the Future?</h2>
             <p className="font-['scrib'] text-gray-200 mb-6">Partner with Galactic 3D to take your product from prototype to production with confidence.</p>
             <div className="mt-6 mb-6 flex font-['scrib'] items-center justify-center gap-3 flex-wrap text-xs text-gray-200/90">
-              <span className="px-3 py-1 rounded-full bg-white/10 border border-red-500/20 flex items-center gap-2"><ShieldCheck className="w-4 h-4 text-red-300" /> ISO‑certified QA</span>
+              <span className="px-3 py-1 rounded-full bg-white/10 border border-red-500/20 flex items-center gap-2"><ShieldCheck className="w-4 h-4 text-red-300" /> ISO‑certified processes</span>
               <span className="px-3 py-1 rounded-full bg-white/10 border border-red-500/20 flex items-center gap-2"><Clock3 className="w-4 h-4 text-red-300" /> Avg. 3–7 day lead time</span>
               <span className="px-3 py-1 rounded-full bg-white/10 border border-red-500/20 flex items-center gap-2"><Globe2 className="w-4 h-4 text-red-300" /> Trusted by aerospace OEMs</span>
             </div>

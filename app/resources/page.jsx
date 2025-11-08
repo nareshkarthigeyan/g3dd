@@ -47,7 +47,7 @@ export default function ResourcesPage() {
     { id: 2, title: 'Design for Additive Manufacturing (DfAM)', level: 'Intermediate', icon: <Book className="w-8 h-8 text-primary" /> },
     { id: 3, title: 'Material Selection Guide', level: 'All Levels', icon: <Book className="w-8 h-8 text-primary" /> },
     { id: 4, title: 'Post-Processing Techniques', level: 'Advanced', icon: <Book className="w-8 h-8 text-primary" /> },
-    { id: 5, title: 'Quality Control in AM', level: 'Advanced', icon: <Book className="w-8 h-8 text-primary" /> },
+    
     { id: 6, title: 'Cost Optimization Strategies', level: 'Intermediate', icon: <Book className="w-8 h-8 text-primary" /> },
   ]
   
@@ -57,7 +57,7 @@ export default function ResourcesPage() {
     { id: 2, title: 'Design Optimization for Metal AM', category: 'tutorials', date: 'Feb 22, 2024', duration: '60 min', thumbnail: 'https://images.unsplash.com/photo-1581093196277-9f608bb3b4b9?q=80&w=1600&auto=format&fit=crop' },
     { id: 3, title: 'Scaling Production with Additive Manufacturing', category: 'webinars', date: 'Jan 18, 2024', duration: '90 min', thumbnail: 'https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=1600&auto=format&fit=crop' },
     { id: 4, title: 'Post-Processing Masterclass', category: 'training', date: 'Dec 05, 2023', duration: '120 min', thumbnail: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1600&auto=format&fit=crop' },
-    { id: 5, title: 'Quality Assurance in Additive Manufacturing', category: 'webinars', date: 'Nov 14, 2023', duration: '60 min', thumbnail: 'https://images.unsplash.com/photo-1581093198932-27fd85e9ac1e?q=80&w=1600&auto=format&fit=crop' },
+  { id: 5, title: 'Assurance in Additive Manufacturing', category: 'webinars', date: 'Nov 14, 2023', duration: '60 min', thumbnail: 'https://images.unsplash.com/photo-1581093198932-27fd85e9ac1e?q=80&w=1600&auto=format&fit=crop' },
     { id: 6, title: 'Introduction to SLS Technology', category: 'training', date: 'Oct 30, 2023', duration: '45 min', thumbnail: 'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?q=80&w=1600&auto=format&fit=crop' },
   ]
   

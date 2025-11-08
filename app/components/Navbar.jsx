@@ -181,46 +181,10 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/industries"
-              className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
-            >
-              Industries
-            </Link>
-            <Link
-              href="/services"
-              className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
-            >
-              Services
-            </Link>
-            <Link
-              href="/machines"
-              className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
-            >
-              Machines
-            </Link>
-            <Link
               href="/training"
               className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
             >
               Training
-            </Link>
-            <Link
-              href="/marketplace"
-              className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
-            >
-              Marketplace
-            </Link>
-            <Link
-              href="/resources"
-              className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
-            >
-              Resources
-            </Link>
-            <Link
-              href="/about"
-              className="text-white font-neueMontreal tracking-wide text-lg hover:text-primary transition duration-300 focus:outline-none focus-visible:underline"
-            >
-              About
             </Link>
             <Link
               href="/contact"

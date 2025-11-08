@@ -239,7 +239,7 @@ export default function Projects() {
                 <p className="text-gray-400 font-['NeueMontreal']">Design Director, AutoInnovate</p>
               </div>
             </div>
-            <p className="text-gray-300 font-['NeueMontreal']">“The quality and precision of Galactic 3D's work is unmatched. Their ability to translate our complex designs into functional parts while maintaining aesthetic appeal was impressive.”</p>
+            <p className="text-gray-300 font-['NeueMontreal']">“The precision and reliability of Galactic 3D's work is unmatched. Their ability to translate our complex designs into functional parts while maintaining aesthetic appeal was impressive.”</p>
           </div>
         </div>
       </div>

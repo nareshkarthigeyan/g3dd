@@ -579,7 +579,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-['test'] mb-4">ISO Certified</h3>
               <p className="text-white/70 font-['scrib']">
-                Our facilities maintain ISO 9001 and ISO 13485 certifications, ensuring the highest standards of quality management and medical device production capabilities.
+                Our facilities maintain ISO 9001 and ISO 13485 certifications, ensuring the highest standards of management and medical device production capabilities.
               </p>
             </motion.div>
             

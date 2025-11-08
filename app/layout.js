@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 
 export const metadata = {
   title: 'Galactic 3D - Professional 3D Printing Services',
-  description: 'Professional 3D printing services for all your needs. High-quality prints, custom designs, and rapid prototyping.',
+  description: 'Professional 3D printing services for all your needs. High-precision prints, custom designs, and rapid prototyping.',
 }
 
 export default function RootLayout({ children }) {

@@ -69,7 +69,7 @@ export default function Testimonials() {
         </div>
         <div className="bg-dark-200/80 p-8 rounded-2xl border border-dark-100 shadow-xl group animate-fade-in-up">
           <p className="text-gray-300 text-lg font-['NeueMontreal'] mb-4">
-            “The quality and precision of Galactic 3D's work is unmatched.
+            “The precision and reliability of Galactic 3D's work is unmatched.
             Their ability to translate our complex designs into functional
             parts while maintaining aesthetic appeal was impressive.”
           </p>

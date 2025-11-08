@@ -106,7 +106,7 @@ const SellPage = () => {
           <div className="absolute -bottom-3 left-0 w-20 h-1 bg-primary"></div>
         </h1>
         <p className="text-xl text-gray-400 max-w-3xl font-['NeueMontreal'] mb-12">
-          From rapid prototyping to end-use production parts, our advanced 3D printing services deliver precision and quality for your unique requirements.
+          From rapid prototyping to end-use production parts, our advanced 3D printing services deliver precision and reliability for your unique requirements.
         </p>
         
         {/* Printing Options Cards */}
@@ -251,7 +251,7 @@ const SellPage = () => {
       <div className="container mx-auto px-6 py-20 text-center bg-dark-300/50 rounded-3xl border border-dark-100 animate-fade-in-up">
         <h2 className="text-3xl font-bold mb-6 font-['MonumentExtended']">Why Sell With Us?</h2>
         <p className="text-xl text-gray-400 mb-10 max-w-3xl mx-auto font-['NeueMontreal']">
-          Join a curated marketplace dedicated to quality and innovation. We connect you with serious buyers and provide the tools you need to manage your orders, streamline your workflow, and grow your business.
+          Join a curated marketplace dedicated to excellence and innovation. We connect you with serious buyers and provide the tools you need to manage your orders, streamline your workflow, and grow your business.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/contact?subject=SellingInquiry" className="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-md transition duration-300 text-lg">

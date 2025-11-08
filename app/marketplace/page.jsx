@@ -358,9 +358,9 @@ export default function MarketplacePage() {
                 </video>
                 <div className="absolute inset-0 bg-gradient-to-tr from-black/40 via-transparent to-black/20" />
               </div>
-              <div className="text-black  absolute -bottom-5 -right-5 bg-white/5 backdrop-blur-xl border border-red-500/20 rounded-xl p-4 shadow-2xl max-w-xs">
+                <div className="text-black  absolute -bottom-5 -right-5 bg-white/5 backdrop-blur-xl border border-red-500/20 rounded-xl p-4 shadow-2xl max-w-xs">
                 <h3 className="text-lg font-['scrib'] mb-2">Industrial-Grade Production</h3>
-                <p className="font-['scrib'] text-sm text-[#B91C1C] ">Our advanced 3D printing facilities can produce your parts with precision and quality at scale.</p>
+                <p className="font-['scrib'] text-sm text-[#B91C1C] ">Our advanced 3D printing facilities can produce your parts with precision and reliability at scale.</p>
               </div>
             </motion.div>
             

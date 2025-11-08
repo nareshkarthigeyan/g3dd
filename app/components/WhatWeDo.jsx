@@ -59,7 +59,7 @@ export default function WhatWeDo() {
             Production & Finishing
           </h3>
           <p className="text-gray-400 font-['NeueMontreal']">
-            We deliver high-quality, end-use parts with a range of finishing
+            We deliver high-precision end-use parts with a range of finishing
             options for every application.
           </p>
         </div>

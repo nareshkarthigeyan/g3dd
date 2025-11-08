@@ -119,8 +119,8 @@ export default function Technology() {
           <h3 className="text-xl font-bold mb-2 font-['MonumentExtended']">
             Vacuum Casting
           </h3>
-          <p className="text-gray-400 font-['NeueMontreal']">
-            For short-run production of high-quality polyurethane parts with
+            <p className="text-gray-400 font-['NeueMontreal']">
+            For short-run production of high-precision polyurethane parts with
             excellent detail.
           </p>
         </div>

@@ -92,8 +92,8 @@ export default function Process() {
             ),
           },
           {
-            title: "Quality Assurance",
-            desc: "Every product undergoes rigorous quality checks to ensure it meets our high standards and your specifications.",
+            title: "Process Assurance",
+            desc: "Every product undergoes rigorous inspections to ensure it meets our standards and your specifications.",
             icon: (
               <svg
                 className="w-7 h-7 text-primary"
